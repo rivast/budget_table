@@ -1,0 +1,798 @@
+<table cellpadding="5" width="100%">
+    <tbody>
+        <tr>
+            <td>
+                <form action="main.php" method="post">
+                    <fieldset style="">
+                        <legend><b>Budget items for the 2025 financial year</b></legend><span class="group-compulsory">*
+                            Compulsory fields</span>
+                        <table width="100%" border="0" cellpadding="2" cellspacing="1" class="tableformat">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <fieldset style="">
+                                            <legend>Items for:</legend>
+                                            <blockquote>
+                                                <table width="90%" border="0" cellpadding="2" cellspacing="1"
+                                                    class="tableformat">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width="200">Budget category:</td>
+                                                            <td>School Fees</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Account:</td>
+                                                            <td>100 010 - Skoolgeld</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Budget head:</td>
+                                                            <td>S Theron</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Budgeter:</td>
+                                                            <td>CA Jacobs</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </blockquote>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <fieldset style="">
+                                            <legend>Items:</legend>
+                                            <blockquote>
+                                                <table width="90%" border="0" cellpadding="2" cellspacing="1"
+                                                    class="tableformat">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th class="tableheading" nowrap="">Grade</th>
+                                                            <th class="tableheading" nowrap="" width="100">Learners
+                                                                (2024)</th>
+                                                            <th class="tableheading" nowrap="" width="100">Learners
+                                                                (2025)</th>
+                                                            <th class="tableheading" nowrap="" width="114">Learners
+                                                                (Waitlist)</th>
+                                                            <th class="tableheading" nowrap="" width="100">Learners
+                                                                (2025) </th>
+                                                            <th class="tableheading" nowrap="" width="156">School
+                                                                fee/Learner (2025)</th>
+                                                            <th class="tableheading" nowrap="" width="88">Spread over
+                                                            </th>
+                                                            <th class="tableheading" nowrap="" width="70">Jan</th>
+                                                            <th class="tableheading" nowrap="" width="70">Feb</th>
+                                                            <th class="tableheading" nowrap="" width="70">Mar</th>
+                                                            <th class="tableheading" nowrap="" width="70">Apr</th>
+                                                            <th class="tableheading" nowrap="" width="70">May</th>
+                                                            <th class="tableheading" nowrap="" width="70">Jun</th>
+                                                            <th class="tableheading" nowrap="" width="70">Jul</th>
+                                                            <th class="tableheading" nowrap="" width="70">Aug</th>
+                                                            <th class="tableheading" nowrap="" width="70">Sep</th>
+                                                            <th class="tableheading" nowrap="" width="70">Oct</th>
+                                                            <th class="tableheading" nowrap="" width="70">Nov</th>
+                                                            <th class="tableheading" nowrap="" width="70">Dec</th>
+                                                            <th class="tableheading" nowrap="" width="70">Total</th>
+                                                        </tr>
+                                                        <tr>
+                                                            <td nowrap="">Grade 8</td>
+                                                            <td align="right" nowrap="">336</td>
+                                                            <td align="right" nowrap="">329</td>
+                                                            <td align="right" nowrap="">0</td>
+                                                            <td nowrap=""><input type="text" name="b_grade[10]"
+                                                                    onkeyup="ca10();cb();cc();" id="ct1" size="5" a="10"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td nowrap=""><input type="text" name="b_grade_fee[10]"
+                                                                    onkeyup="ca10();cc()" size="8"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td><span><select name="b_grade_month[10]"
+                                                                        onchange="ca10();cc()">
+                                                                        <option value="1">1 Month</option>
+                                                                        <option value="2">2 Months</option>
+                                                                        <option value="3">3 Months</option>
+                                                                        <option value="4">4 Months</option>
+                                                                        <option value="5">5 Months</option>
+                                                                        <option value="6">6 Months</option>
+                                                                        <option value="7">7 Months</option>
+                                                                        <option value="8">8 Months</option>
+                                                                        <option value="9">9 Months</option>
+                                                                        <option value="10">10 Months</option>
+                                                                        <option value="11">11 Months</option>
+                                                                        <option value="12" selected="">12 Months
+                                                                        </option>
+                                                                    </select></span></td>
+                                                            <td align="right" nowrap="" id="tt10.1">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.2">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.3">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.4">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.5">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.6">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.7">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.8">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.9">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.10">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.11">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10.12">939400.00</td>
+                                                            <td align="right" nowrap="" id="tt10">11272800.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td nowrap="">Grade 9</td>
+                                                            <td align="right" nowrap="">317</td>
+                                                            <td align="right" nowrap="">306</td>
+                                                            <td align="right" nowrap="">0</td>
+                                                            <td nowrap=""><input type="text" name="b_grade[11]"
+                                                                    onkeyup="ca11();cb();cc();" id="ct2" size="5" a="11"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td nowrap=""><input type="text" name="b_grade_fee[11]"
+                                                                    onkeyup="ca11();cc()" size="8"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td><span><select name="b_grade_month[11]"
+                                                                        onchange="ca11();cc()">
+                                                                        <option value="1">1 Month</option>
+                                                                        <option value="2">2 Months</option>
+                                                                        <option value="3">3 Months</option>
+                                                                        <option value="4">4 Months</option>
+                                                                        <option value="5">5 Months</option>
+                                                                        <option value="6">6 Months</option>
+                                                                        <option value="7">7 Months</option>
+                                                                        <option value="8">8 Months</option>
+                                                                        <option value="9">9 Months</option>
+                                                                        <option value="10">10 Months</option>
+                                                                        <option value="11">11 Months</option>
+                                                                        <option value="12" selected="">12 Months
+                                                                        </option>
+                                                                    </select></span></td>
+                                                            <td align="right" nowrap="" id="tt11.1">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.2">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.3">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.4">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.5">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.6">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.7">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.8">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.9">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.10">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.11">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11.12">1022560.00</td>
+                                                            <td align="right" nowrap="" id="tt11">12270720.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td nowrap="">Grade 10</td>
+                                                            <td align="right" nowrap="">311</td>
+                                                            <td align="right" nowrap="">318</td>
+                                                            <td align="right" nowrap="">0</td>
+                                                            <td nowrap=""><input type="text" name="b_grade[12]"
+                                                                    onkeyup="ca12();cb();cc();" id="ct3" size="5" a="12"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td nowrap=""><input type="text" name="b_grade_fee[12]"
+                                                                    onkeyup="ca12();cc()" size="8"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td><span><select name="b_grade_month[12]"
+                                                                        onchange="ca12();cc()">
+                                                                        <option value="1">1 Month</option>
+                                                                        <option value="2">2 Months</option>
+                                                                        <option value="3">3 Months</option>
+                                                                        <option value="4">4 Months</option>
+                                                                        <option value="5">5 Months</option>
+                                                                        <option value="6">6 Months</option>
+                                                                        <option value="7">7 Months</option>
+                                                                        <option value="8">8 Months</option>
+                                                                        <option value="9">9 Months</option>
+                                                                        <option value="10">10 Months</option>
+                                                                        <option value="11">11 Months</option>
+                                                                        <option value="12" selected="">12 Months
+                                                                        </option>
+                                                                    </select></span></td>
+                                                            <td align="right" nowrap="" id="tt12.1">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.2">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.3">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.4">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.5">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.6">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.7">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.8">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.9">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.10">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.11">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12.12">970200.00</td>
+                                                            <td align="right" nowrap="" id="tt12">11642400.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td nowrap="">Grade 11</td>
+                                                            <td align="right" nowrap="">284</td>
+                                                            <td align="right" nowrap="">313</td>
+                                                            <td align="right" nowrap="">0</td>
+                                                            <td nowrap=""><input type="text" name="b_grade[13]"
+                                                                    onkeyup="ca13();cb();cc();" id="ct4" size="5" a="13"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td nowrap=""><input type="text" name="b_grade_fee[13]"
+                                                                    onkeyup="ca13();cc()" size="8"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td><span><select name="b_grade_month[13]"
+                                                                        onchange="ca13();cc()">
+                                                                        <option value="1">1 Month</option>
+                                                                        <option value="2">2 Months</option>
+                                                                        <option value="3">3 Months</option>
+                                                                        <option value="4">4 Months</option>
+                                                                        <option value="5">5 Months</option>
+                                                                        <option value="6">6 Months</option>
+                                                                        <option value="7">7 Months</option>
+                                                                        <option value="8">8 Months</option>
+                                                                        <option value="9">9 Months</option>
+                                                                        <option value="10">10 Months</option>
+                                                                        <option value="11">11 Months</option>
+                                                                        <option value="12" selected="">12 Months
+                                                                        </option>
+                                                                    </select></span></td>
+                                                            <td align="right" nowrap="" id="tt13.1">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.2">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.3">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.4">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.5">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.6">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.7">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.8">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.9">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.10">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.11">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13.12">967120.00</td>
+                                                            <td align="right" nowrap="" id="tt13">11605440.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td nowrap="">Grade 12</td>
+                                                            <td align="right" nowrap="">272</td>
+                                                            <td align="right" nowrap="">278</td>
+                                                            <td align="right" nowrap="">0</td>
+                                                            <td nowrap=""><input type="text" name="b_grade[14]"
+                                                                    onkeyup="ca14();cb();cc();" id="ct5" size="5" a="14"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td nowrap=""><input type="text" name="b_grade_fee[14]"
+                                                                    onkeyup="ca14();cc()" size="8"
+                                                                    style="text-align:right;"
+                                                                    autocomplete="new-password"><span
+                                                                    style="color:red">*</span></td>
+                                                            <td><span><select name="b_grade_month[14]"
+                                                                        onchange="ca14();cc()">
+                                                                        <option value="1">1 Month</option>
+                                                                        <option value="2">2 Months</option>
+                                                                        <option value="3">3 Months</option>
+                                                                        <option value="4">4 Months</option>
+                                                                        <option value="5">5 Months</option>
+                                                                        <option value="6">6 Months</option>
+                                                                        <option value="7">7 Months</option>
+                                                                        <option value="8">8 Months</option>
+                                                                        <option value="9">9 Months</option>
+                                                                        <option value="10">10 Months</option>
+                                                                        <option value="11">11 Months</option>
+                                                                        <option value="12" selected="">12 Months
+                                                                        </option>
+                                                                    </select></span></td>
+                                                            <td align="right" nowrap="" id="tt14.1">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.2">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.3">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.4">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.5">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.6">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.7">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.8">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.9">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.10">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.11">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14.12">874720.00</td>
+                                                            <td align="right" nowrap="" id="tt14">10496640.00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>Totals</td>
+                                                            <td align="right" nowrap="">1520</td>
+                                                            <td align="right" nowrap="">1544</td>
+                                                            <td align="right" nowrap="">0</td>
+                                                            <td align="right" nowrap="" id="lt">1550</td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td align="right" nowrap="" id="pt1">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt2">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt3">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt4">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt5">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt6">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt7">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt8">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt9">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt10">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt11">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt12">4774000.00</td>
+                                                            <td align="right" nowrap="" id="pt">57288000.00</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </blockquote>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset><input type="hidden" name="table_select" value="3426"><input type="hidden"
+                        name="b_budget_type" value="10054"><input type="hidden" name="b_accountcode" value="25"><input
+                        type="hidden" name="b_accountname" value="25"><input type="hidden" name="b_personel"
+                        value="262"><input type="hidden" name="budget_id" value="28"><input type="hidden"
+                        name="budget_type_id" value="10054"><input type="hidden" name="budget_year" value="2025"><input
+                        type="hidden" name="b_fin_start_month" value="1"><input type="hidden" name="b_current_fin_year"
+                        value="2024"><input type="hidden" name="inc" value="25"><input type="hidden" name="start"
+                        value="0"><input type="hidden" name="Button">
+                    <h5>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                            class="button_back">
+                                                            <tbody>
+                                                                <tr
+                                                                    onclick="if(window.can_submit==''||window.can_submit===0||window.can_submit===1){return false;}if(window.can_submit!==2){alert('An error occured on the page! The page will be reloaded.');window.location.reload(true);return false;}h13.value='Edit Budget Item';if(!f.getAttribute('s')){f.setAttribute('s',1);f.submit();}">
+                                                                    <td nowrap="">&nbsp;&nbsp;</td>
+                                                                    <td id="" nowrap=""><i
+                                                                            class="fa-solid fa-arrow-left"></i> Back
+                                                                    </td>
+                                                                    <td nowrap="">&nbsp;&nbsp;</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                            class="button_save">
+                                                            <tbody>
+                                                                <tr
+                                                                    onclick="if(window.can_submit==''||window.can_submit===0||window.can_submit===1){return false;}if(window.can_submit!==2){alert('An error occured on the page! The page will be reloaded.');window.location.reload(true);return false;}h13.value='Save Budget Item';this.setAttribute('m','one');if(chk_form(this))if(!f.getAttribute('s')){f.setAttribute('s',1);f.submit();}">
+                                                                    <td nowrap="">&nbsp;&nbsp;</td>
+                                                                    <td id="" nowrap=""><i
+                                                                            class="fa-solid fa-arrow-pointer"></i>
+                                                                        Continue</td>
+                                                                    <td nowrap="">&nbsp;&nbsp;</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </h5><input type="hidden" name="tab_sort"><input type="hidden" name="tab_sort_desc"><input
+                        type="hidden" name="tab_search_field"><input type="hidden" name="tab_search">
+                </form><a style="display:none" onclick="return false" id="hidden_link" name="inline" href="#inline"></a>
+                <div id="inline" style="display:none; overflow: auto;"><iframe scrolling="no" src="" width="1"
+                        height="1" frameborder="0" id="fbiframe" name="fbiframe"></iframe></div>
+                <script language="javascript">
+                    window.can_submit = 0;
+                    f = document.forms[0];
+
+                    function round(V) {
+                        V = isNaN(V) ? '0' : V;
+                        var S = (V == (V = Math.abs(V)));
+                        V = Math.floor(V * 100 + 0.50000000001);
+                        var D = V % 100;
+                        D = (D < 10 ? '0' + D : D);
+                        V = Math.floor(V / 100).toString();
+                        return (S || V + '.' + D == '0.00' ? '' : '-') + V + '.' + D;
+                    }
+
+                    function cb() {
+                        var a = 0;
+                        var d = document;
+                        for (var i = 1; i <= 5; i++) a += d.getElementById('ct' + i).value * 1;
+                        d.getElementById('lt').innerText = a;
+                    }
+
+                    function cc() {
+                        var d = document;
+                        for (var j = 1; j <= 12; j++) {
+                            var a = 0;
+                            for (var i = 1; i <= 5; i++) a += d.getElementById('tt' + d.getElementById('ct' + i).getAttribute('a') + '.' + j).innerText * 1;
+                            d.getElementById('pt' + j).innerText = round(a);
+                        }
+                        var a = 0;
+                        for (var i = 1; i <= 5; i++) a += d.getElementById('tt' + d.getElementById('ct' + i).getAttribute('a')).innerText * 1;
+                        d.getElementById('pt').innerText = round(a);
+                    }
+                    t1 = f["b_grade[10]"];
+                    t1.value = "305";
+                    F1 = function (a) {
+                        var e = a ? a : event ? event : null;
+                        var c = e.keyCode != 0 ? e.keyCode : e.charCode;
+                        var Q = 0;
+                        e.returnValue = (c >= 48 && c <= 57) ? Q = 1 : Q = 0;
+                        return Q == 1 || e.charCode == 0 ? true : false;
+                    };
+                    t1.onkeypress = F1;
+
+                    function chk_form(b) {
+                        if (isNaN(parseFloat(t1.value))) {
+                            alert('Please enter a valid number of learners for grade 8.');
+                            return false;
+                        }
+                        if (isNaN(parseFloat(t2.value))) {
+                            alert('Please enter a valid school fee for grade 8.');
+                            return false;
+                        }
+                        if (isNaN(parseFloat(t3.value))) {
+                            alert('Please enter a valid number of learners for grade 9.');
+                            return false;
+                        }
+                        if (isNaN(parseFloat(t4.value))) {
+                            alert('Please enter a valid school fee for grade 9.');
+                            return false;
+                        }
+                        if (isNaN(parseFloat(t5.value))) {
+                            alert('Please enter a valid number of learners for grade 10.');
+                            return false;
+                        }
+                        if (isNaN(parseFloat(t6.value))) {
+                            alert('Please enter a valid school fee for grade 10.');
+                            return false;
+                        }
+                        if (isNaN(parseFloat(t7.value))) {
+                            alert('Please enter a valid number of learners for grade 11.');
+                            return false;
+                        }
+                        if (isNaN(parseFloat(t8.value))) {
+                            alert('Please enter a valid school fee for grade 11.');
+                            return false;
+                        }
+                        if (isNaN(parseFloat(t9.value))) {
+                            alert('Please enter a valid number of learners for grade 12.');
+                            return false;
+                        }
+                        if (isNaN(parseFloat(t10.value))) {
+                            alert('Please enter a valid school fee for grade 12.');
+                            return false;
+                        }
+                        return true;
+                    }
+                    cb();
+                    t2 = f["b_grade_fee[10]"];
+                    t2.value = "36960.00";
+
+                    function ckey(n, v1, k) {
+                        v2 = n.value;
+                        if (k == 45 && v2.indexOf('-') != 0) n.value = v1;
+                        if (k == 46 && v2.indexOf('.') < (v2.indexOf('-') != 0 ? 1 : 2)) n.value = v1;
+                        if (k != 45 && k != 46 && v2.indexOf('-') > 0) n.value = v1;
+                    }
+                    F2 = function (a) {
+                        var e = a ? a : event ? event : null;
+                        var c = e.keyCode != 0 ? e.keyCode : e.charCode;
+                        var Q = 0;
+                        e.returnValue = (this.value.indexOf('.') == -1 && c == 46) || (c >= 48 && c <= 57) ? Q = 1 : Q = 0;
+                        if (Q == 1) setTimeout('ckey(f[\'' + this.name + '\'],"' + this.value + '",' + c + ');', 2);
+                        return Q == 1 || e.charCode == 0 ? true : false;
+                    };
+                    t2.onkeypress = F2;
+                    s1 = f["b_grade_month[10]"];
+
+                    function mkop(N, O) {
+                        var S = '';
+                        var Q = [];
+                        var P = 0;
+                        if (O.options && O.type == 1) {
+                            var V = O.selected;
+                            var T = O.text;
+                            var W = O.start;
+                            for (var I in O.options) {
+                                var Z = O.options[I];
+                                var Y = O.start ? W++ : (T ? Z : I);
+                                var X = V == '*' || V == Y || T == Y;
+                                var D = O.readonly && V == '*';
+                                if (!O.readonly || X) {
+                                    S += '<OPTION value="' + Y + '"' + (X ? ' selected' : '') + (D ? ' disabled' : '') + '>' + (Z + '').replace(/[<>&"']/g, function (char) {
+                                        return {
+                                            '<': '&lt;',
+                                            '>': '&gt;',
+                                            '&': '&amp;',
+                                            '"': '&quot;',
+                                            "'": '&#39;'
+                                        } [char];
+                                    }) + '</OPTION>';
+                                    Q[P++] = (Z + '').toLowerCase();
+                                }
+                            }
+                        } else if (O.options) {
+                            var V = O.selected;
+                            for (var I in O.options) {
+                                var Y = O.options[I][0];
+                                var Z = O.options[I][1];
+                                var X = O.options[I][2] || V == '*' || V == Y;
+                                var D = O.options[I][3] || (O.readonly && V == '*');
+                                var B = O.options[I][4];
+                                if (!O.readonly || X) {
+                                    S += '<OPTION value="' + Y + '"' + (X ? ' selected' : '') + (D ? ' disabled' : '') + (B ? ' style="background-color:' + B + '"' : '') + '>' + (Z + '').replace(/[<>&"']/g, function (char) {
+                                        return {
+                                            '<': '&lt;',
+                                            '>': '&gt;',
+                                            '&': '&amp;',
+                                            '"': '&quot;',
+                                            "'": '&#39;'
+                                        } [char];
+                                    }) + '</OPTION>';
+                                    Q[P++] = (Z + '').toLowerCase();
+                                }
+                            }
+                        } else if ((O.min || O.min === 0) && (O.max || O.max === 0)) {
+                            var V = O.selected;
+                            for (var I = O.min * 1; I <= O.max; I++) {
+                                var Z = O.min.length > 1 && I < 10 ? '0' + I : I;
+                                var Y = Z;
+                                var X = V == '*' || V == Y;
+                                var D = O.readonly && V == '*';
+                                if (!O.readonly || X) {
+                                    S += '<OPTION value="' + Y + '"' + (X ? ' selected' : '') + (D ? ' disabled' : '') + '>' + (Z + '').replace(/[<>&"']/g, function (char) {
+                                        return {
+                                            '<': '&lt;',
+                                            '>': '&gt;',
+                                            '&': '&amp;',
+                                            '"': '&quot;',
+                                            "'": '&#39;'
+                                        } [char];
+                                    }) + '</OPTION>';
+                                    Q[P++] = (Z + '').toLowerCase();
+                                }
+                            }
+                        }
+                        var E = N.parentElement;
+                        if (O.selected == '*') E.style.display = 'none';
+                        N.innerHTML = '';
+                        E.innerHTML = N.outerHTML.substr(0, N.outerHTML.length - 9) + S + '</SELECT>';
+                        if (O.selected == '*') E.style.display = '';
+                        N = E.firstChild;
+                        N.lOptions = Q;
+                        return N;
+                    }
+                    s1 = mkop(s1, {
+                        selected: 12,
+                        options: [
+                            [1, "1 Month"],
+                            [2, "2 Months"],
+                            [3, "3 Months"],
+                            [4, "4 Months"],
+                            [5, "5 Months"],
+                            [6, "6 Months"],
+                            [7, "7 Months"],
+                            [8, "8 Months"],
+                            [9, "9 Months"],
+                            [10, "10 Months"],
+                            [11, "11 Months"],
+                            [12, "12 Months"]
+                        ],
+                        readonly: 0
+                    });
+
+                    function ca10() {
+                        var month_budget = t2.value * t1.value / s1.value;
+                        var total_budget = 0;
+                        for (var i = 1; i <= 12; i++) {
+                            document.getElementById('tt10.' + i).innerText = round(s1.value >= i ? month_budget : 0);
+                            total_budget += s1.value >= i ? month_budget : 0;
+                        }
+                        document.getElementById('tt10').innerText = round(total_budget);
+                    }
+                    ca10();
+                    cc();
+                    t3 = f["b_grade[11]"];
+                    t3.value = "332";
+                    t3.onkeypress = F1;
+                    cb();
+                    t4 = f["b_grade_fee[11]"];
+                    t4.value = "36960.00";
+                    t4.onkeypress = F2;
+                    s2 = f["b_grade_month[11]"];
+                    s2 = mkop(s2, {
+                        selected: 12,
+                        options: [
+                            [1, "1 Month"],
+                            [2, "2 Months"],
+                            [3, "3 Months"],
+                            [4, "4 Months"],
+                            [5, "5 Months"],
+                            [6, "6 Months"],
+                            [7, "7 Months"],
+                            [8, "8 Months"],
+                            [9, "9 Months"],
+                            [10, "10 Months"],
+                            [11, "11 Months"],
+                            [12, "12 Months"]
+                        ],
+                        readonly: 0
+                    });
+
+                    function ca11() {
+                        var month_budget = t4.value * t3.value / s2.value;
+                        var total_budget = 0;
+                        for (var i = 1; i <= 12; i++) {
+                            document.getElementById('tt11.' + i).innerText = round(s2.value >= i ? month_budget : 0);
+                            total_budget += s2.value >= i ? month_budget : 0;
+                        }
+                        document.getElementById('tt11').innerText = round(total_budget);
+                    }
+                    ca11();
+                    cc();
+                    t5 = f["b_grade[12]"];
+                    t5.value = "315";
+                    t5.onkeypress = F1;
+                    cb();
+                    t6 = f["b_grade_fee[12]"];
+                    t6.value = "36960.00";
+                    t6.onkeypress = F2;
+                    s3 = f["b_grade_month[12]"];
+                    s3 = mkop(s3, {
+                        selected: 12,
+                        options: [
+                            [1, "1 Month"],
+                            [2, "2 Months"],
+                            [3, "3 Months"],
+                            [4, "4 Months"],
+                            [5, "5 Months"],
+                            [6, "6 Months"],
+                            [7, "7 Months"],
+                            [8, "8 Months"],
+                            [9, "9 Months"],
+                            [10, "10 Months"],
+                            [11, "11 Months"],
+                            [12, "12 Months"]
+                        ],
+                        readonly: 0
+                    });
+
+                    function ca12() {
+                        var month_budget = t6.value * t5.value / s3.value;
+                        var total_budget = 0;
+                        for (var i = 1; i <= 12; i++) {
+                            document.getElementById('tt12.' + i).innerText = round(s3.value >= i ? month_budget : 0);
+                            total_budget += s3.value >= i ? month_budget : 0;
+                        }
+                        document.getElementById('tt12').innerText = round(total_budget);
+                    }
+                    ca12();
+                    cc();
+                    t7 = f["b_grade[13]"];
+                    t7.value = "314";
+                    t7.onkeypress = F1;
+                    cb();
+                    t8 = f["b_grade_fee[13]"];
+                    t8.value = "36960.00";
+                    t8.onkeypress = F2;
+                    s4 = f["b_grade_month[13]"];
+                    s4 = mkop(s4, {
+                        selected: 12,
+                        options: [
+                            [1, "1 Month"],
+                            [2, "2 Months"],
+                            [3, "3 Months"],
+                            [4, "4 Months"],
+                            [5, "5 Months"],
+                            [6, "6 Months"],
+                            [7, "7 Months"],
+                            [8, "8 Months"],
+                            [9, "9 Months"],
+                            [10, "10 Months"],
+                            [11, "11 Months"],
+                            [12, "12 Months"]
+                        ],
+                        readonly: 0
+                    });
+
+                    function ca13() {
+                        var month_budget = t8.value * t7.value / s4.value;
+                        var total_budget = 0;
+                        for (var i = 1; i <= 12; i++) {
+                            document.getElementById('tt13.' + i).innerText = round(s4.value >= i ? month_budget : 0);
+                            total_budget += s4.value >= i ? month_budget : 0;
+                        }
+                        document.getElementById('tt13').innerText = round(total_budget);
+                    }
+                    ca13();
+                    cc();
+                    t9 = f["b_grade[14]"];
+                    t9.value = "284";
+                    t9.onkeypress = F1;
+                    cb();
+                    t10 = f["b_grade_fee[14]"];
+                    t10.value = "36960.00";
+                    t10.onkeypress = F2;
+                    s5 = f["b_grade_month[14]"];
+                    s5 = mkop(s5, {
+                        selected: 12,
+                        options: [
+                            [1, "1 Month"],
+                            [2, "2 Months"],
+                            [3, "3 Months"],
+                            [4, "4 Months"],
+                            [5, "5 Months"],
+                            [6, "6 Months"],
+                            [7, "7 Months"],
+                            [8, "8 Months"],
+                            [9, "9 Months"],
+                            [10, "10 Months"],
+                            [11, "11 Months"],
+                            [12, "12 Months"]
+                        ],
+                        readonly: 0
+                    });
+
+                    function ca14() {
+                        var month_budget = t10.value * t9.value / s5.value;
+                        var total_budget = 0;
+                        for (var i = 1; i <= 12; i++) {
+                            document.getElementById('tt14.' + i).innerText = round(s5.value >= i ? month_budget : 0);
+                            total_budget += s5.value >= i ? month_budget : 0;
+                        }
+                        document.getElementById('tt14').innerText = round(total_budget);
+                    }
+                    ca14();
+                    cc();
+                    h1 = f.table_select;
+                    h1.value = "3426";
+                    h2 = f.b_budget_type;
+                    h2.value = "10054";
+                    h3 = f.b_accountcode;
+                    h3.value = "25";
+                    h4 = f.b_accountname;
+                    h4.value = "25";
+                    h5 = f.b_personel;
+                    h5.value = "262";
+                    h6 = f.budget_id;
+                    h6.value = "28";
+                    h7 = f.budget_type_id;
+                    h7.value = "10054";
+                    h8 = f.budget_year;
+                    h8.value = "2025";
+                    h9 = f.b_fin_start_month;
+                    h9.value = "1";
+                    h10 = f.b_current_fin_year;
+                    h10.value = "2024";
+                    h11 = f.inc;
+                    h11.value = "25";
+                    h12 = f.start;
+                    h12.value = "0";
+                    h13 = f.Button;
+                    h14 = f.tab_sort;
+                    h15 = f.tab_sort_desc;
+                    h16 = f.tab_search_field;
+                    h17 = f.tab_search;
+                    window.can_submit = 1;
+                </script>
+            </td>
+        </tr>
+    </tbody>
+</table>
